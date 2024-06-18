@@ -1,0 +1,44 @@
+INSERT INTO enrollments 
+(
+    student_id,
+    course_id,
+    enrollment_date,
+    grade
+)
+VALUES
+(
+    6,
+    1,
+    '2024-06-18',
+    5
+),
+(
+    7,
+    2,
+    '2024-06-18',
+    5
+),
+(
+    8,
+    1,
+    '2024-06-18',
+    5
+);
+INSERT INTO enrollments 
+(
+    student_id,
+    course_id,
+    enrollment_date
+)
+VALUES
+(
+    9,
+    3,
+    '2024-06-18'
+),
+(
+    10,
+    3,
+    '2024-06-18'
+);
+SELECT * FROM enrollments
