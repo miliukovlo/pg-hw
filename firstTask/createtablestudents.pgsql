@@ -7,7 +7,7 @@ CREATE TABLE students (
     phone_number VARCHAR(12),
     address VARCHAR(50),
     enrollment_date DATE NOT NULL,
-    gpa NUMERIC(3, 2),
+    gpa NUMERIC(5, 2),
     CHECK (gpa > 0)
 );
 SELECT * FROM students;
