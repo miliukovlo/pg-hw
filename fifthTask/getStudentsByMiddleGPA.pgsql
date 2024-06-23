@@ -1,2 +1,3 @@
-SELECT * FROM enrollments
-WHERE enrollment_date > '2023-12-31' AND enrollment_date < '2025-01-01'
+SELECT students.student_id, students.first_name, students.last_name, students.gpa FROM students
+JOIN enrollments ON students.student_id = enrollments.student_id
+ORDER BY gpa DESC
